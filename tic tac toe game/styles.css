@@ -1,0 +1,42 @@
+
+h1{
+  color: red;
+  font-size: 50px;
+  font-style: italic;
+}
+#par{
+  font-size: 25px;
+  color: green;
+  font-style: normal;
+}
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9{
+  border: 1px solid blue;
+  height: 150px;
+  width: 150px;
+  float: left;
+  font-size: 100px;
+  text-align: center;
+}
+.parClass{
+  font-size: 25px;
+  color: green;
+  font-style:oblique;
+
+}
+#div1,#div4,#div7{
+  /* background-color: red; */
+  clear: left;
+  border-left: none;
+}
+#div3,#div6,#div9{
+  border-right: none;
+}
+#div1,#div2,#div3{
+  border-top: none;
+}
+#div7,#div8,#div9{
+  border-bottom: none;
+}
+#main{
+  margin-left: 450px;
+}
